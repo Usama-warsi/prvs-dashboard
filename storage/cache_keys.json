@@ -1,0 +1,65 @@
+{
+    "Botble\\ACL\\Models\\UserMeta": [
+        "65b83ad065dbeb5292d94ab9580d9273@user-meta-1"
+    ],
+    "Botble\\Ecommerce\\Models\\ProductCategory": [
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_8263c91047bb908dc1a1815097134b75",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_fd05d19f7c7d01d75bf1c03266e8cf66",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_62728c9da381a4ce0cb11c6399090a1f",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_8dbb4475433ad0b1d44d1718823f62e1",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_02eaf89d23858cb75f3b12d2c154e6c9",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_df2b074e1f114e3d3a4dcbd5d38c4b18",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_faef024d103dba38dacf51e8ec4125f8",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_7c4f509f95c9afcc0bc3015c26ccd498",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_b9027da91aec10d76dec1bcce2de589d",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_e7420cdbf9061e0da9e18feafdcc1bdd",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_306cb1acaf474a45b34c61118b3dccfb",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_8d0314f3fb5bd868c1852bb66f67af09",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_46acc0e63dd5e5c994747b5e030c8fe7",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_fa867fe95c68034d273acb4cdfa78cbb",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_aaa55a5d631fc8492b8a61aa33b14d55",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_68407339e32a79b30b8c8f40d68d672a",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_9cf5b719211888e4c7e5e95fe6c9832b",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_81f64892f4f58fafbd818b9efa0908a0",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_a6034ceadee4bf6ab171dd624c1c809d",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_f84d28b515b3eead6d0ed49964fa461a",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_3ff8e3aeb3e27a8bcb056a895e932f58",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_b928c135e70711a3764b74204cfc526d",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_138d47b1d22c1b189c064873afc7bdb4",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_56efe86cc5af4fbdf6ad2f9146203e72",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_2ed51a9ee917d4ca1428a539bc091d5c",
+        "e2df835384821fa5036252a0581ba12b@ecommerce_categories_for_widgets_25dff3266364ef3c88939e704125bc1f"
+    ],
+    "Botble\\Menu\\Models\\Menu": [
+        "876a095a247b966461c4079f23f9e7ae@menu_location_802d5a65f33006c9cce74ef6209231df",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_a77b419804a1946a036c5cb75ee9e97c",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_3a814f65bd737eb37583141b27ba3bb9",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_69299f5d16cc1cb6afcc29b86761dd30",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_7c8c5724821e663780d4d6d99b59a0ac",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_8f5cef19139e3cc5f709d209f2aca18e",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_847f27bada2a0b27201949883b473ab4",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_d7f78b73efd0ec35b8ed283b72c2540c",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_94cd8a76d648f01ac7567f0aff9e2fd4",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_55a81c9e8fcdbcb080a493a350ad474b",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_11c4051d3a83936e05fcf496f4719277",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_301f7555cb7382b7d1083abcfe4c89f2",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_e48ca1648314aaa1985eaa7803aeaddf",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_8f6474bc58beaa81ae98903075b5f013",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_5986794ffe46bd29e66dc88a8fd6422e",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_7ccda32512ee4076a7794f890629606f",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_a004aa21450eea56b07c60484e8e0b26",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_ae49fb3746a445eb26bcdfcd9bffdb87",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_5901e9c21537f6818f62d8b2b0c1749e",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_ee7fb83238da62e3cb189fa127f10541",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_9b0d72822dc37591b01b8ef10b369ebd",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_9ae129e3737e4baef9689d4da11a943f",
+        "876a095a247b966461c4079f23f9e7ae@menu_location_256753fad3b1638e3375c09e78b28463"
+    ],
+    "Botble\\Contact\\Models\\Contact": [
+        "0c175e4a57799ccc0d2967044852a2f8@unread-contacts",
+        "0c175e4a57799ccc0d2967044852a2f8@unread-contacts-count"
+    ],
+    "Botble\\Base\\Models\\AdminNotification": [
+        "91ca94b722506f03892a158294e61ceb@admin-notifications-count"
+    ]
+}

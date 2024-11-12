@@ -1,0 +1,1 @@
+$((function(){"use strict";BDashboard.loadWidget($("#widget_tenants_recent").find(".widget-content"),$("#widget_tenants_recent").data("url"))}));

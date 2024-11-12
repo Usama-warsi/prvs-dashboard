@@ -1,0 +1,1 @@
+<img src="{{url('storage/file66acf6b7390a2-site-logo.png')}}" alt="">
