@@ -830,7 +830,7 @@ class PublicCheckoutController extends BaseController
                 'price' => $cartItem->price,
                 'tax_amount' => $cartItem->tax,
                 'options' => $cartItem->options,
-                'report_content' => $result_report ?? '',
+                'report_content' => $result_report ?? NULL,
                 'product_type' => $product->product_type,
             ];
 

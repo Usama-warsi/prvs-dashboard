@@ -77,7 +77,7 @@
                 </div>
 
                 <div class="bt-1 border-color-1 mt-30 mb-30"></div>
-                <form class="" method="POST" action="{{ route('public.cart.add-to-cart') }}">
+                <form class="add-to-cart-form" method="POST" action="{{ route('public.cart.add-to-cart') }}">
                     @csrf
 
                     @if ($product->variations()->count() > 0)

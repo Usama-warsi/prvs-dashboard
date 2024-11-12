@@ -568,29 +568,30 @@ class PublicController extends BaseController
         SeoHelper::setTitle(__('Downloads'));
 
         $orderProducts = OrderProduct::query()
-            ->whereHas('order', function (Builder $query) {
-                $query
-                    ->where('user_id', auth('customer')->id())
-                    ->where('is_finished', 1)
-                    ->when(is_plugin_active('payment'), function (Builder $query) {
+        ->whereHas('order', function (Builder $query) {
+            $query
+                ->where('user_id', auth('customer')->id())
+                ->where('is_finished', 1)
+                ->when(is_plugin_active('payment'), function (Builder $query) {
+                    $query->where(function (Builder $query) {
                         $query
-                            ->where(function (Builder $query) {
-                                $query
-                                    ->where('amount', 0)
-                                    ->orWhereHas('payment', function ($query) {
-                                        $query->where('status', [
-                                            PaymentStatusEnum::COMPLETED,
-                                            PaymentStatusEnum::PAY_LATER
-                                        ]);
-                                    });
+                            ->where('amount', 0)
+                            ->orWhereHas('payment', function ($query) {
+                                $query->whereIn('status', [
+                                    PaymentStatusEnum::PAY_LATER,
+                                    PaymentStatusEnum::COMPLETED
+                                ]);
                             });
                     });
-            })
-            ->where('product_type', ProductTypeEnum::DIGITAL)
-            ->orderByDesc('created_at')
-            ->with(['order', 'product', 'productFiles', 'product.productFiles'])
-            ->paginate(10);
-
+                });
+        })
+        ->where('product_type', ProductTypeEnum::DIGITAL)
+        ->whereNotNull('report_content')
+        ->orderByDesc('created_at')
+        ->with(['order', 'product', 'productFiles', 'product.productFiles'])
+        ->paginate(10);
+    
+    
         Theme::breadcrumb()
             ->add(__('Downloads'), route('customer.downloads'));
 
